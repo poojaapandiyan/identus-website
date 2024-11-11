@@ -1,0 +1,146 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #19003A;
+}
+
+header {
+    background-color: #19003A;
+    color: #8B0082;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+.homepage{
+    body {
+        background-image:"homepage.jpeg";
+        background-size: cover; /* Make the image cover the entire page */
+        background-position: center; /* Center the background image */
+        background-repeat: repeat; /* Prevent repeating the image */
+    }
+}
+.service{
+    background-image:"services.jpeg";
+    background-size: cover; /* Make the image cover the entire page */
+    background-position: center;
+    opacity: 0.5;
+    width: 1270px;
+    height:525px;
+}
+  
+.about-us{
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    background-color: #19003A;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-overlay h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .text-overlay p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #19003A;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #8e19d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #19003A;
+}
+
+/* Service list styles */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+.signin{
+    text-align: center;
+    color: #fff;
+}
+.signup{
+    text-align: center;
+    color: #fff;
+}
+.contact-us{
+    text-align: center;
+    color: #fff;
+
+}
